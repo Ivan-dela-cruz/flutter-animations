@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_animaciones/src/pages/pagina1_page.dart';
+import 'package:flutter_app_animaciones/src/pages/twitter_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Pagina1Page(),
+      //home: TwitterPage(),
     );
   }
 }
